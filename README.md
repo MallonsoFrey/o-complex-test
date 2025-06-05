@@ -1,6 +1,6 @@
 ## Как запустить проект
 1. Клонировать репозиторий:
-git clone https://github.com/MallonsoFrey/o-complex-test.git
+git clone https://github.com/MallonsoFrey/o-complex-test.git , затем 
 cd o-complex-test
 
 2. Установить зависимости:
