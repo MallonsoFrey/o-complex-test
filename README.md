@@ -1,16 +1,16 @@
 ## Как запустить проект
 1. Клонировать репозиторий:
 git clone [https://github.com/your-username/your-project.git](https://github.com/MallonsoFrey/o-complex-test.git)
-cd your-project
+cd o-complex-test
 
 2. Установить зависимости:
 npm install
-# или
+или
 yarn install
 
 3. Запустить локальный сервер разработки:
 npm run dev
-# или
+или
 yarn dev
 
 ## Что было сделано
