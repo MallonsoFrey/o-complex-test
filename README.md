@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Как запустить проект
+1. Клонировать репозиторий:
+git clone [https://github.com/your-username/your-project.git](https://github.com/MallonsoFrey/o-complex-test.git)
+cd your-project
 
-## Getting Started
+2. Установить зависимости:
+npm install
+# или
+yarn install
 
-First, run the development server:
-
-```bash
+3. Запустить локальный сервер разработки:
 npm run dev
-# or
+# или
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Что было сделано
+- Адаптивный интерфейс для мобильных устройств и планшетов.
+- Загрузка товаров с API с пагинацией и подгрузкой новых страниц при прокрутке вниз (infinite scroll).
+- Отзывы, хранящиеся в JSON с HTML-разметкой для удобного форматирования.
+- Управление корзиной с возможностью добавлять, удалять товары и изменять их количество через кнопки и поле ввода.
+- Автоматическое сохранение состояния корзины и телефона в localStorage для сохранения данных между сессиями.
+- Маска для ввода номера телефона.
+- Валидация номера телефона при оформлении заказа.
+- Отправка данных заказа на сервер.
+- Отображение всплывающего попапа с успешным подтверждением после отправки.
